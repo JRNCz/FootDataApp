@@ -17,6 +17,7 @@ https://user-images.githubusercontent.com/83510823/226892233-076995f2-f9a4-4590-
 - Nested JSON decoding and data storage using several classes in data/service.dart
 - League, Competition, Player, and Club classes
 - Async function to getData(), the loading screen ends and pushes the home screen after the function is done.
+- HTTP Requests (with a special header) 
 
 # Future Work and conclusions
 
