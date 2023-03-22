@@ -1,0 +1,51 @@
+
+
+{
+    "id": 42871,
+    "name": "Odisseas Vlachodimos",
+    "firstName": "Odisseas",
+    "lastName": "Vlachodimos",
+    "dateOfBirth": "1994-04-26",
+    "nationality": "Greece",
+    "position": "Goalkeeper",
+    "shirtNumber": 99,
+    "lastUpdated": "2022-07-26T17:39:24Z",
+    "currentTeam": {
+        "area": {
+            "id": 2187,
+            "name": "Portugal",
+            "code": "POR",
+            "flag": "https://crests.football-data.org/765.svg"
+        },
+        "id": 1903,
+        "name": "Sport Lisboa e Benfica",
+        "shortName": "SL Benfica",
+        "tla": "BEN",
+        "crest": "https://crests.football-data.org/1903.png",
+        "address": "null null null",
+        "website": "https://www.slbenfica.pt",
+        "founded": 2020,
+        "clubColors": null,
+        "venue": "Estádio do Sport Lisboa e Benfica",
+        "runningCompetitions": [
+            {
+                "id": 2001,
+                "name": "UEFA Champions League",
+                "code": "CL",
+                "type": "CUP",
+                "emblem": "https://crests.football-data.org/CL.png"
+            },
+            {
+                "id": 2017,
+                "name": "Primeira Liga",
+                "code": "PPL",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/PPL.png"
+            }
+        ],
+        "contract": {
+            "start": "2018-07",
+            "until": "2024-06"
+        }
+    }
+}
