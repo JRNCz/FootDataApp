@@ -27,5 +27,6 @@ The application doesn't represent the full potential of the API since it still h
 
 # If the app doesn't run 
 
-It's most likely because the API key is expired. Each user can get his own in https://www.football-data.org/, with a maximum of 100 requests per minute (March 2023)  
+- It's most likely because the API key is expired. Each user can get his own in https://www.football-data.org/, with a maximum of 100 requests per minute (March 2023) 
+- Requires SDK version >=2.19.4 <3.0.0,
 
