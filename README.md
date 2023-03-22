@@ -31,7 +31,7 @@ The application doesn't represent the full potential of the API since it still h
 
 This app requires SDK version >=2.19.4 <3.0.0 to run this version of the project. The user can either:
 
-- The user must change pubspec.yaml's to it's current version (e.g 2.19.3) under "enviorement:" in case the pub get doesn't work.
+- The user must change pubspec.yaml's SDK version to an older version (e.g 2.19.3) under "enviorement:" in case the pub get doesn't work.
 - In the terminal , upgrade flutter by writing "**flutter upgrade**" and afterwards get the depedencies by "**flutter pub get**"
 
 To run the app one must enter in the terminal: **flutter run**
