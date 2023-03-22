@@ -1,16 +1,29 @@
-# finalproject
+# FootData
+Project based in Flutter, using footballdata.org's public API. The app allows the user to see **information about the champions, Portuguese, French, Spanish, Italian, German, and English leagues, their clubs, and players.** The data displayed is directly given by a public API so it might not be 100% reliable at some point in time since it is very dynamic.
 
-A new Flutter project.
+# Preview of the app:
+https://user-images.githubusercontent.com/83510823/226892233-076995f2-f9a4-4590-b8ba-658cf6c8499e.mp4
 
-## Getting Started
+# Tecnhinal description and problems addressed:
 
-This project is a starting point for a Flutter application.
+### Home, clubs, and league endpoints
 
-A few resources to get you started if this is your first Flutter project:
+- ListView format using Cards widgets in each menu.
+- SVG files wouldn't work using NetworkImage, therefore, the SvgPicture library was pivotal.
+- Information on the display within the Listview was sent by argument.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Loading Screen 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Nested JSON decoding and data storage using several classes in data/service.dart
+- League, Competition, Player, and Club classes
+- Async function to getData(), the loading screen ends and pushes the home screen after the function is done.
+
+# Future Work and conclusions
+
+The application doesn't represent the full potential of the API since it still has a lot of information that could be stored and shown to the end-user as matches, information about which competitions a certain team attends along more.
+
+
+# If the app doesn't run 
+
+It's most likely because the API key is expired. Each user can get his own in https://www.football-data.org/, with a maximum of 100 requests per minute (March 2023)  
+
