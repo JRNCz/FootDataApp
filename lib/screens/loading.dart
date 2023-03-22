@@ -31,7 +31,7 @@ class LoadingScreen extends StatefulWidget {
 }
 
 class _LoadingScreenState extends State<LoadingScreen> {
-  //Variables
+  //Variables and decoding
 
   late int clubCount;
   late String season;
