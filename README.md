@@ -25,8 +25,13 @@ The application doesn't represent the full potential of the API since it still h
  or information about which competitions a certain team attends.
 
 
-# If the app doesn't run 
+# To run the app
 
-- It's most likely because the API key is expired. Each user can get his own in https://www.football-data.org/, with a maximum of 100 requests per minute (March 2023) 
-- Requires SDK version >=2.19.4 <3.0.0,
+ 
+- This app requires SDK version >=2.19.4 <3.0.0 to run this version of the project.
+- The user must change pubspec.yaml's to it's current version (e.g 2.19.3) under "enviorement:" in case the pub get doesn't work
+- To run the app one must enter in the terminal: flutter run 
 
+
+
+- It's most likely because the API key is expired. Each user can get his own in https://www.football-data.org/, with a maximum of 100 requests per minute (March 2023)
