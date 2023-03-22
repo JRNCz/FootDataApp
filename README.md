@@ -20,7 +20,8 @@ https://user-images.githubusercontent.com/83510823/226892233-076995f2-f9a4-4590-
 
 # Future Work and conclusions
 
-The application doesn't represent the full potential of the API since it still has a lot of information that could be stored and shown to the end-user as matches, information about which competitions a certain team attends along more.
+The application doesn't represent the full potential of the API since it still has a lot of information that could be stored and shown to the end-user as matches
+ or information about which competitions a certain team attends.
 
 
 # If the app doesn't run 
