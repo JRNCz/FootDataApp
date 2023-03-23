@@ -1,5 +1,5 @@
 # FootData
-Project based in Flutter, using footballdata.org's public API. The app allows the user to see **information about the champions, Portuguese, French, Spanish, Italian, German, and English leagues, their clubs, and players.** The data displayed is directly given by a public API so it might not be 100% reliable at some point in time since it is very dynamic.
+Project based in Flutter, using footballdata.org's public API. The app allows the user to see **information about the champions, Portuguese, French, Spanish, Italian, German, and English leagues, their clubs, and players.** The data displayed is directly given by a public API so it might not be 100% reliable at some point in time since it is very dynamic. Uses flutter_spinkit 5.1.0 for the loading animation - a package availaible to all major phone OS's and web.
 
 # Preview of the app:
 https://user-images.githubusercontent.com/83510823/226892233-076995f2-f9a4-4590-b8ba-658cf6c8499e.mp4
